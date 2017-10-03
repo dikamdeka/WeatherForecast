@@ -1,5 +1,5 @@
 var weather;
-var api =  'http://api.openweathermap.org/data/2.5/weather?q=';
+var api =  'https://api.openweathermap.org/data/2.5/weather?q=';
 // var city = 'London';
 var api_key = '&appid=b7f29c4cd9922a3245b6de1abcef865c';
 var units = '&units=metric';
