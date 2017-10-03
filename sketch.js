@@ -7,8 +7,8 @@ var units = '&units=metric';
 var input;
 var tempbox;
 var humidbox;
-var min;
-var max;
+var min1;
+var max1;
 
 function setup(){
 	noCanvas();
@@ -19,8 +19,8 @@ function setup(){
 	input = select('#city');
 	tempbox = select('#temp');
 	humidbox = select('#humid');
-	min = select('#min');
-	max = select('#max');
+	min1 = select('#min');
+	max1 = select('#max');
 
 }
 
@@ -38,8 +38,8 @@ function gotData(data){
 	var maxTemp = weather.main.temp_max;
 	tempbox.html(temp);
 	humidbox.html(humidity);
-	min.html(minTemp);
-	max.html(maxTemp);
+	min1.html(minTemp);
+	max1.html(maxTemp);
 
 
 }
