@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+     <script src="libraries/p5.js"></script>
+     <script src="libraries/p5.dom.js"></script> 
+     <script src="sketch.js"></script>
+
+     <style type = "text/css"> 
+
+      #temp,#humid,#min,#max {
+        color: red;
+   
+     </style>
+  </head>
+  <body>
+
+   <p>
+    <input type="text" value="London" id="city">
+    <br>
+    <button id="button">Submit</button>
+
+  </p>
+  <div>
+    <p>Temperature: <span id="temp"></span> deg Celsius</p>
+    <p>Humidity: <span id="humid"></span></p>
+    <p>Min Temp: <span id="min"></span> deg Celsius</p>
+    <p>Max Temp: <span id="max"></span> deg Celsius</p>
+  </div>
+  
+  
+  </body>
+</html>
